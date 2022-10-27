@@ -31,9 +31,12 @@ section{
 img{
     float: left;
     height: 100px;
+    margin-right: 10px;
 }
 .information{
     text-align: left;
+    line-height: calc(100px / 3 - 5px);
+    padding: 8px;
 }
 a{
     color: rgb(82,184,217); 
