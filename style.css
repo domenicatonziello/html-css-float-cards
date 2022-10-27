@@ -7,12 +7,35 @@ body{
     font-family: 'Fredoka', sans-serif;
     text-align: center;
 }
-
+/* HEADER */
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 h1{
     color: #e53170;
     margin: 40px;
+}
+/* CARD*/
+section{
+    margin:40px;
+}
+.card{
+    height: 100px;
+    width: calc(100% / 3 - 20px);
+    background-color: black;
+    float: left;
+    margin: 10px;
+    color: white;
+}
+img{
+    float: left;
+    height: 100px;
+}
+.information{
+    padding: 10px;
+    text-align: left;
+}
+a{
+    color: rgb(29,90,156); 
 }
