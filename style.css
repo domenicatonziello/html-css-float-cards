@@ -22,7 +22,7 @@ section{
 }
 .card{
     height: 100px;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 30px);
     background-color: black;
     float: left;
     margin: 10px;
@@ -33,9 +33,20 @@ img{
     height: 100px;
 }
 .information{
-    padding: 10px;
     text-align: left;
 }
 a{
-    color: rgb(29,90,156); 
+    color: rgb(82,184,217); 
+    text-decoration: none;
+}
+h4{
+    text-transform: uppercase;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    margin: 0 -30px;
 }
